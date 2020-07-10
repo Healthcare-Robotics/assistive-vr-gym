@@ -1,0 +1,15 @@
+from assistive_gym.envs.human_testing import HumanTestingEnv
+from assistive_gym.envs.scratch_itch_robots import ScratchItchPR2Env, ScratchItchJacoEnv, ScratchItchPR2HumanEnv, ScratchItchJacoHumanEnv
+from assistive_gym.envs.bed_bathing_robots import BedBathingPR2Env, BedBathingJacoEnv, BedBathingPR2HumanEnv, BedBathingJacoHumanEnv
+from assistive_gym.envs.drinking_robots import DrinkingPR2Env, DrinkingJacoEnv, DrinkingPR2HumanEnv, DrinkingJacoHumanEnv
+from assistive_gym.envs.feeding_robots import FeedingPR2Env, FeedingJacoEnv, FeedingPR2HumanEnv, FeedingJacoHumanEnv
+
+from assistive_gym.envs.scratch_itch_robots import ScratchItchVRPR2Env, ScratchItchVRPR2HumanEnv, ScratchItchVRJacoEnv, ScratchItchVRJacoHumanEnv
+from assistive_gym.envs.bed_bathing_robots import BedBathingVRPR2Env, BedBathingVRPR2HumanEnv, BedBathingVRJacoEnv, BedBathingVRJacoHumanEnv
+from assistive_gym.envs.drinking_robots import DrinkingVRPR2Env, DrinkingVRPR2HumanEnv, DrinkingVRJacoEnv, DrinkingVRJacoHumanEnv
+from assistive_gym.envs.feeding_robots import FeedingVRPR2Env, FeedingVRPR2HumanEnv, FeedingVRJacoEnv, FeedingVRJacoHumanEnv
+
+from assistive_gym.envs.scratch_itch_robots import ScratchItchPR2NewEnv, ScratchItchJacoNewEnv, ScratchItchVRPR2NewEnv, ScratchItchVRJacoNewEnv
+from assistive_gym.envs.bed_bathing_robots import BedBathingPR2NewEnv, BedBathingJacoNewEnv, BedBathingVRPR2NewEnv, BedBathingVRJacoNewEnv
+from assistive_gym.envs.drinking_robots import DrinkingPR2NewEnv, DrinkingJacoNewEnv, DrinkingVRPR2NewEnv, DrinkingVRJacoNewEnv
+from assistive_gym.envs.feeding_robots import FeedingPR2NewEnv, FeedingJacoNewEnv, FeedingVRPR2NewEnv, FeedingVRJacoNewEnv

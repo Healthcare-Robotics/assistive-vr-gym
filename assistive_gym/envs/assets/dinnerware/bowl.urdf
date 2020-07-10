@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<robot name="dinnerware">
+
+    <material name="color">
+        <color rgba="1.0 1.0 1.0 1.0"/>
+    </material>
+
+  <link name="bowl">
+    <inertial>
+      <mass value="0.1"/>
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <inertia ixx="0.0" ixy="0.03" ixz="0.0" iyy="0.01" iyz="0.0" izz="0.01"/>
+    </inertial>
+    <visual>
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="bowl_reduced_compressed.obj" scale="0.75 0.75 0.75"/>
+      </geometry>
+      <material name="color"/>
+    </visual>
+    <collision>
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="bowl_vhacd.obj" scale="0.75 0.75 0.75"/>
+      </geometry>
+    </collision>
+  </link>
+</robot>
