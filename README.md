@@ -1,6 +1,7 @@
 # Assistive VR Gym
 
 Assistive VR Gym (AVR Gym) is a virtual reality framework that enables real people to interact with virtual assistive robots through physics simulation.
+
 With virtual reality, simulation-trained assistive robots can be evaluated with real human motion/actions without putting real people at risk.
 In doing so, VR can help bridge the gap between simulations and the real world.
 AVR Gym is built on [Assistive Gym](https://github.com/Healthcare-Robotics/assistive-gym), a physics-based simulation framework for physical human-robot interaction and robotic assistance.
