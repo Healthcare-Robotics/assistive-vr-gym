@@ -13,10 +13,10 @@ AVR Gym is built on [Assistive Gym](https://github.com/Healthcare-Robotics/assis
 ### Paper
 A paper on Assistive VR Gym can be found at https://arxiv.org/abs/2007.04959
 
-Z. Erickson*, Y. Gu*, and C. C. Kemp, "Assistive VR Gym: Using Interactions with Real People to Improve Virtual Assistive Robots", IEEE International Conference on Robot and Human Interactive Communication (RO-MAN), 2020.
+Z. Erickson*, Y. Gu*, and C. C. Kemp, "Assistive VR Gym: Interactions with Real People to Improve Virtual Assistive Robots", IEEE International Conference on Robot and Human Interactive Communication (RO-MAN), 2020.
 ```
 @article{erickson2020avrgym,
-  title={Assistive VR Gym: Using Interactions with Real People to Improve Virtual Assistive Robots},
+  title={Assistive VR Gym: Interactions with Real People to Improve Virtual Assistive Robots},
   author={Erickson, Zackory and Gu, Yijun and Kemp, Charles C.},
   journal={IEEE International Conference on Robot and Human Interactive Communication (RO-MAN)},
   year={2020}
