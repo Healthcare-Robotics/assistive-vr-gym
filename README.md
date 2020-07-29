@@ -23,28 +23,8 @@ Z. Erickson*, Y. Gu*, and C. C. Kemp, "Assistive VR Gym: Interactions with Real 
 }
 ```
 
-## Assistive Gym Install
-### Simple installation using a python virtual environment.
-We encourage installing Assistive Gym and the custom PyBullet engine in a python virtualenv.  
-A detailed description of each installation step can be found in the [Install Guide](https://github.com/Healthcare-Robotics/assistive-gym/wiki/1.-Install).  
-Installation instructions for Windows can also be found in the [Install Guide](https://github.com/Healthcare-Robotics/assistive-gym/wiki/1.-Install#installing-on-windows)
-```bash
-python3 -m pip install --user virtualenv
-python3 -m venv env
-source env/bin/activate
-pip3 install git+https://github.com/Zackory/bullet3.git
-git clone https://github.com/Healthcare-Robotics/assistive-gym.git
-cd assistive-gym
-pip3 install .
-# Leave virtual env with: deactivate
-```
+## Assistive VR Gym Installation
+Installation instructions for VR an Assistive VR Gym can be found on the [Installation Wiki page](https://github.com/Healthcare-Robotics/assistive-vr-gym/wiki/1.-Install)
 
-## Virtual Reality Installation
-Wiki page for VR installation under development.
-
-## Getting Started
-Wiki page for VR quick start under development.
-
-We provide pretrained control policies for each robot and assistive task.  
-See [Running Pretrained Policies](https://github.com/Healthcare-Robotics/assistive-gym/wiki/4.-Running-Pretrained-Policies) for details on how to run a pretrained policy.
-
+## Getting Started in VR
+Examples for using VR and evaluating pretrained assistive robot control policies in VR can be found on the [Testing Assistive VR Gym with Pretrained Policies](https://github.com/Healthcare-Robotics/assistive-vr-gym/wiki/3.-Testing-Assistive-VR-Gym-with-Pretrained-Policies) Wiki page.
